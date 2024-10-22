@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  RPS
-//
-//  Created by Ali Oguz on 30.09.2024.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

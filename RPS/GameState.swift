@@ -1,5 +1,5 @@
 import Foundation
-import UIKit
+
 enum GameState{
     case start
     case win
@@ -8,27 +8,16 @@ enum GameState{
     
     var status: String {
         switch self {
-        case .start:
-            return "Rock,Paper,Scissors!"
+        case . start:
+            return "Rock, Paper, Scissors?"
         case .win:
             return "You Won!"
         case .lose:
-            return "You Lose!"
+            return "You Lost!"
         case .draw:
             return "It's a Draw!"
+            
         }
     }
     
-    var color: UIColor {
-        switch self {
-        case .start:
-            return UIColor.blue
-        case .win:
-            return UIColor.green
-        case . lose:
-            return UIColor.red
-        case .draw:
-            return UIColor.yellow
-            }
-        }
-    }
+}
